@@ -1,0 +1,14 @@
+{{> menu}}
+
+
+
+<!-- Contenido principal -->
+<div class="container mt-4">
+    <div class="row">
+        {{!-- Mensaje de Bienvenida --}}
+        <p class="text-center fs-3">Bienvenido al Mercado Web, Seleccione sus Productos</p>
+        {{#each this}}
+            {{> productos nombre=this.nombre imagen=this.imagen precio=this.precio}}
+        {{/each}}
+    </div>
+</div>

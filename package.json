@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "jquery": "^3.7.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
